@@ -14,7 +14,7 @@ public:
         m_rotateInfo = Vector3f(0.0f, 0.0f, 0.0f);
     }
 
-    void Scale(float ScaleX, float ScaleY, float ScaleZ)
+    void Scale(float ScaleX, float ScaleY, float ScaleZ) 
     {
         m_scale.x = ScaleX;
         m_scale.y = ScaleY;
